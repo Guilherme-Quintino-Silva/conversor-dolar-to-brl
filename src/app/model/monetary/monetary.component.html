@@ -1,0 +1,11 @@
+<div class="card">
+    <H2>O seu melhor conversor de moedas</H2>
+    <img src="assets/img/dolar.png" alt="Dolar" title="Dolar" width="150px" />
+    <form>
+        <label>
+            <span>U$: <input type="text" name="U$" id="dolar" [(ngModel)]="onDolar"
+                    (input)="changes($event)" /></span>
+            <p>{{ onReal | currency : 'R$'}}</p>
+        </label>
+    </form>
+</div>

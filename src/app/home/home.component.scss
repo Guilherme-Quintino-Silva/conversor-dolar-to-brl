@@ -1,0 +1,16 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background: linear-gradient(45deg, #0ee56540, #fff, #00c67f66);
+    padding: 19px;
+    height: 93vh;
+}

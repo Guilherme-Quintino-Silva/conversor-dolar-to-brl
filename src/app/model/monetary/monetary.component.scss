@@ -1,0 +1,21 @@
+form {
+    margin: 20px 0;
+    label {
+        input {
+            padding: 5px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            &:focus-visible {
+                box-shadow: 0 0 0 0;
+                border: 2px solid transparent;
+                outline: 0;
+            }
+        }
+    }
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
