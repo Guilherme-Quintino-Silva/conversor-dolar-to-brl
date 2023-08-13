@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "conversor-dolar-to-brl"
+  "defaultProject": "conversor-dolar-to-brl",
+  "cli": {
+    "analytics": "20d6579f-24bd-41df-b76b-21162b72194d"
+  }
 }

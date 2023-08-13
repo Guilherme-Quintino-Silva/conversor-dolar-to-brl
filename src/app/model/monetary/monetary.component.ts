@@ -10,6 +10,7 @@ export class MonetaryComponent implements OnInit {
   @Input() onReal: number = 0;
   @Input() onDolar: string = '';
   @Output() onChanges = new EventEmitter();
+  
   constructor() { }
 
   ngOnInit(): void {
